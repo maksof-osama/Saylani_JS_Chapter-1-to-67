@@ -65,7 +65,15 @@ font-weight: bolder;
     background-color: rgba(0, 0, 0, 0.3);
     font-family: 'Times New Roman', Times, serif !important;
 }
-
+#modals{
+    border:3px solid rgb(226, 226, 226);    
+    cursor: pointer;
+    height: 250px;
+    width:290px;
+}
+#modals:hover{
+    border:5px solid rgb(59, 58, 58);  
+}
 .modal-content {
     margin: auto;
     display: block;

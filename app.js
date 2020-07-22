@@ -2121,7 +2121,7 @@
 // Task # 2
 // function readmore(){
 // var readmore= document.getElementById("readmore")
-// readmore.innerHTML="cholar Maulana Bashir Ahmed Farooqui, Saylani Welfare International Trust was built on the millions more awaiting your donation. UK Donor Donate"
+// readmore.innerHTML=" Lorem ioosum Lorem ioosum Lorem ioosum Lorem ioosum Lorem ioosum Lorem ioosum Lorem ioosum Lorem ioosum Lorem ioosum Lorem ioosum Lorem ioosum Lorem ioosum Lorem ioosum Lorem ioosum Lorem ioosum "
 // }
 
 
@@ -2143,6 +2143,30 @@
 
 
 //---------------------------------------Chapter 53-57---------------------------------------
+// Task # 1
+// function imageShow(e) {
+// Swal.fire({
+//     imageUrl: e.src,
+//     title: "Click On IMAGE",
+//     imageWidth: 630,
+//     imageHeight: 340,
+//     })
+// }
+
+
+// Task # 2
+// var fontSize = 1;
+// function zoomIn() {
+// fontSize += 0.666;
+// document.body.style.fontSize = fontSize + "em";
+// }
+// function zoomOut() {
+// fontSize -= 0.666;
+// document.body.style.fontSize = fontSize + "em";
+// }
+
+
+
 // Task # 2
 // var arr_images=["others/1.jpg","others/2.jpg","others/3.jpg","others/4.png","others/5.jpg","others/6.jpg","others/7.png",
 // "others/8.jpg","others/9.jpg","others/10.jpg","others/11.jpg","others/12.jpg","others/13.jpg","others/14.png","others/15.jpg",]
@@ -2161,7 +2185,7 @@
 
 // Task # 4
 // function image(){
-// alert("Hello! You Just Click On An IMAGE")
+// Swal.fire("Click On IMAGE")
 // }
 
 
@@ -2191,24 +2215,29 @@
 // Part # i
 // var main_content= document.getElementById("main-content")
 
+
 // Part # ii    
 // var main_content= document.getElementById("main-content")
-// for(var i=0; i<=4; i++){
-// document.getElementById("div").innerHTML ="Child Elements: "+ main_content.children[i].tagName
-// }
+// document.getElementById("div").innerHTML ="Child Elements: <br> 1st Element: "+ main_content.childNodes[0].tagName +
+// " <br> 2st Element: "+ main_content.childNodes[1].tagName +
+// " <br> 3rd Element: "+ main_content.childNodes[2].tagName +
+// " <br> 4th Element: "+ main_content.childNodes[3].tagName;
 
 // Part # iii   
 // var main_content= document.getElementsByClassName("render")
-// for(var i=0; i<4; i++){
-// document.getElementById("div").innerHTML ="Inner Html:  "+ main_content
-// }
+// document.getElementById("div").innerHTML ="Elements || Inner Html: <br>"+
+// main_content[0].tagName+" || "+main_content[0].textContent+"<br>"+ 
+// main_content[1].tagName+" || "+main_content[1].textContent+"<br>"+ 
+// main_content[2].tagName+" || "+main_content[2].textContent+"<br>"+
+// main_content[3].tagName+" || "+main_content[3].textContent+"<br>"+
+// main_content[4].tagName+" || "+main_content[4].textContent;
 
 // Part # iv
-// var fname= document.getElementById("first-name").value=" Daniyal "
+// var fname= document.getElementById("first-name").value=" Osama "
 
 // Part # v
-// var lname= document.getElementById("last-name").value=" Zakir Ali "
-// var email= document.getElementById("email").value="daniyalzakir03@gmail.com"
+// var lname= document.getElementById("last-name").value=" M. Nasir "
+// var email= document.getElementById("email").value="sheikhosama2020@gmail.com"
 
 
 // Task # 2
@@ -2216,13 +2245,16 @@
 // var main_content =document.getElementById("form-content").nodeType
 // document.getElementById("div").innerHTML ="Node Type: "+ main_content
 
+
 // Part # ii
 // var main_content =document.getElementById("lastName")
 // document.getElementById("div").innerHTML ="Node Type: "+ main_content.nodeType +"<br>Child Node: "+ main_content.childNodes
 
+
 // Part # iii
 // var lname= document.getElementById("lastName")
-// lname.childNodes="Zakir Ali"
+// lname.textContent="Last Name: M. Nasir"
+// document.getElementById("div").innerHTML ="Update Child Node: "+ lname.textContent
 
 // Part # iv
 // var main_content =document.getElementById("main-content")
